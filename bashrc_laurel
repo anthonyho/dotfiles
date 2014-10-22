@@ -1,0 +1,104 @@
+# .bashrc
+# AH 6/23/2014 for Laurel
+
+# User specific aliases and functions
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+export HISTCONTROL='ignoredups'
+export EDITOR='emacs'
+export VMDAPPDIR='/Applications/VMD1.9.1.app/Contents'
+PATH="$PATH:/Applications/MATLAB_R2012b.app/bin:$HOME/scripts"
+
+# -- alias -- #
+alias e='emacs -nw'
+er() {
+    emacs "$1" --eval '(setq buffer-read-only t)'
+}
+alias jobs='jobs -l'
+
+alias ls='ls -G' # -G is the Mac option, for Linux it's --color=auto
+alias lst='ls -trhlG' # same as above
+alias grep='grep -i --color=auto'
+alias echo='echo -e'
+alias mkdir='mkdir -p'
+alias rsync='rsync -avz --progress'
+alias rsyncd='rsync -avz --progress --delete'
+alias rsynce='rsync -avz --progress --existing'
+alias rsynci='rsync -avzi'
+alias preview='open -a Preview'
+alias vmd='"$VMDAPPDIR/Resources/VMD.app/Contents/MacOS/VMD" $* -nt'
+alias vmdd='"$VMDAPPDIR/Resources/VMD.app/Contents/MacOS/VMD" $* -dispdev text -e'
+alias xmgrace='/Applications/Grace.app/Contents/MacOS/start.sh'
+alias whereami='echo $HOSTNAME'
+
+# -- Git aliases -- #
+alias gci='git commit -a'
+alias gp='git push -u origin master'
+alias gcp='git commit -a && git push -u origin master'
+
+
+alias stfu='sudo shutdown -h now'
+alias ctfo='sudo shutdown -r now'
+
+# -- safety first -- #
+alias cp='cp -i'
+alias rm='rm -i'
+alias mv='mv -i'
+alias killall='killall -i'
+
+# -- colors -- #
+BLACK='\[\e[0m\]'
+RED='\[\e[0;31m\]'
+GREEN='\[\e[0;32m\]'
+YELLOW='\[\e[0;33m\]'
+BLUE='\[\e[0;34m\]'
+VIOLET='\[\e[0;35m\]'
+CYAN='\[\e[0;36m\]'
+GRAY='\[\e[0;37m\]'
+
+PS1="$VIOLET[\j] $BLUE\w $BLACK"
+
+# -- remote computing -- #
+export corn='ahho@corn.stanford.edu'
+export laurel='anthony@laurel.stanford.edu'
+export raid='wjg@gatorraid.stanford.edu'
+export raidBackup='backupdaemon@gatorraid.stanford.edu'
+export greenseq='wjg@greenseq.stanford.edu'
+export greenseqa='anthony@greenseq.stanford.edu'
+export clubmoss='wjg@clubmoss.stanford.edu'
+export alfalfa='greenleaflab@alfalfa.stanford.edu'
+export allspice='greenleaflab@allspice.stanford.edu'
+export lotus='anthony@lotus.stanford.edu'
+export mesquite='anthony@mesquite.stanford.edu'
+export icme='ahho@icme-gpu1.stanford.edu'
+export clusterlustre='anthony@clusterlustre.stanford.edu'
+export greendragon='anthony@greendragon.stanford.edu'
+alias corn='export TERM=xterm-color; ssh -X $corn; export TERM=xterm'
+alias laurel='export TERM=xterm-color; ssh -X $laurel; export TERM=xterm'
+alias raid='export TERM=xterm-color; ssh -X $raid; export TERM=xterm'
+alias raidBackup='export TERM=xterm-color; ssh -X $raidBackup; export TERM=xterm'
+alias greenseq='export TERM=xterm-color; ssh -X $greenseq; export TERM=xterm'
+alias greenseqa='export TERM=xterm-color; ssh -X $greenseqa; export TERM=xterm'
+alias clubmoss='export TERM=xterm-color; ssh -X $clubmoss; export TERM=xterm'
+alias alfalfa='export TERM=xterm-color; ssh -X $alfalfa; export TERM=xterm'
+alias allspice='export TERM=xterm-color; ssh -X $allspice; export TERM=xterm'
+alias lotus='export TERM=xterm-color; ssh -X $lotus; export TERM=xterm'
+alias mesquite='export TERM=xterm-color; ssh -X $mesquite; export TERM=xterm'
+alias icme='export TERM=xterm-color; ssh -X $icme; export TERM=xterm'
+alias clusterlustre='export TERM=xterm-color; ssh -X $clusterlustre; export TERM=xterm'
+alias greendragon='export TERM=xterm-color; ssh -X $greendragon; export TERM=xterm'
+
+# -- old remote access -- #
+#export tbgl='hho7@tbgl-work2.physics.illinois.edu'
+#export tbglwork11='hho7@tbgl-work11.physics.illinois.edu'
+#export tbglserver='hho7@tbgl-server2.physics.uiuc.edu'
+#export vesselinFuckingVelev='antoine@24.13.132.155'
+#export ranger='hho@ranger.tacc.utexas.edu'
+#export kraken='hyho@kraken.nics.tennessee.edu'
+#export krakenpwd='hyho@kraken-pwd.nics.tennessee.edu'
+#export jaguarxt4='hho7@jaguar.ccs.ornl.gov'
+#export jaguarxt5='hho7@jaguarpf.ccs.ornl.gov'
