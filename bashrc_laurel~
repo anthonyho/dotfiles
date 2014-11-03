@@ -1,5 +1,5 @@
 # .bashrc
-# AH 6/23/2014 for Laurel
+# AH 10/22/2014 for Laurel
 
 # User specific aliases and functions
 
@@ -11,7 +11,7 @@ fi
 export HISTCONTROL='ignoredups'
 export EDITOR='emacs'
 export VMDAPPDIR='/Applications/VMD1.9.1.app/Contents'
-PATH="$PATH:/Applications/MATLAB_R2012b.app/bin:$HOME/scripts"
+PATH="$PATH:/Applications/MATLAB_R2012b.app/bin:$HOME/scripts/linuxTools"
 
 # -- alias -- #
 alias e='emacs -nw'
