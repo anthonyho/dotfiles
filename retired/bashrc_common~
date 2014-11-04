@@ -1,0 +1,12 @@
+# common .bashrc to share among all machines
+# AH 11/3/2014 
+
+# User specific aliases and functions
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+export HISTCONTROL='ignoredups'
+export EDITOR='emacs'
