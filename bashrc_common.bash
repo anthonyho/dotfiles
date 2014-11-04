@@ -119,9 +119,13 @@ alias raidBackup='export TERM=xterm-color; ssh -X $raidBackup; export TERM=xterm
 export clubmoss='wjg@clubmoss.stanford.edu'
 export alfalfa='greenleaflab@alfalfa.stanford.edu'
 export allspice='greenleaflab@allspice.stanford.edu'
+export allspiceViviana='vrisca@allspice.stanford.edu'
+export alicia='alicia@sr13-52e8946c88.stanford.edu'
 alias clubmoss='export TERM=xterm-color; ssh -X $clubmoss; export TERM=xterm'
 alias alfalfa='export TERM=xterm-color; ssh -X $alfalfa; export TERM=xterm'
 alias allspice='export TERM=xterm-color; ssh -X $allspice; export TERM=xterm'
+alias allspiceViviana='export TERM=xterm-color; ssh -X $allspiceViviana; export TERM=xterm'
+alias alicia='export TERM=xterm-color; ssh -X $alicia; export TERM=xterm'
 
 # - Stanford - #
 export corn='ahho@corn.stanford.edu'
