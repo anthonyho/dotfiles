@@ -65,6 +65,8 @@ if [ "$(uname)" == "Darwin" ]; then  # Mac
 fi
 
 # - git shortcuts - #
+alias gs='git status'
+alias ga='git add *'
 alias gci='git commit -a'
 alias gp='git push -u origin master'
 alias gcp='git commit -a && git push -u origin master'
