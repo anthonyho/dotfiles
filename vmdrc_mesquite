@@ -1,0 +1,36 @@
+# VMD startup script 
+# Anthony Ho 2/22/2014
+
+# turn on lights 0 and 1
+light 0 on
+light 1 on
+light 2 off
+light 3 off
+
+# position the stage and axes
+axes location off
+stage location off
+
+# change projection
+display projection orthographic
+
+# change background color
+color Display Background white
+color Display FPS black
+color Axes Labels black
+
+# set some variables
+global VMDDIR
+set VMDDIR $env(VMDAPPDIR)
+
+# position and turn on menus
+#main
+menu main on
+menu main move 45 50 
+#graphics
+menu graphics on
+menu graphics move 1120 60
+#tkcon
+menu tkcon off
+menu tkcon on
+menu tkcon move 80 70
