@@ -29,7 +29,7 @@ alias killall='killall -i'
 # - emacs - #
 alias e='emacs -nw'  # emacs no windows 
 er() {
-    emacs "$1" --eval '(setq buffer-read-only t)'  # emacs read only shortcut
+    emacs -nw "$1" --eval '(setq buffer-read-only t)'  # emacs read only shortcut
 }
 
 # - options for common Linux commands - #
