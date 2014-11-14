@@ -12,7 +12,7 @@ fi
 export HISTSIZE=1000  # Changing history size
 export HISTFILESIZE=1000  # Changing history size
 export HISTCONTROL='ignoredups'  # Eliminate duplicates in history
-export EDITOR='emacs'  # Set default edit to emacs
+export EDITOR='emacs -nw'  # Set default edit to emacs
 if [ "$(uname)" == "Darwin" ]; then  # Mac
     export LSCOLORS=GxFxCxDxBxegedabagaced  # Specify ls colors for Mac
 fi
@@ -105,16 +105,18 @@ alias mesquite='export TERM=xterm-color; ssh -X $mesquite; export TERM=xterm'
 
 # - work - # 
 export laurel='anthony@laurel.stanford.edu'
-export greenseq='wjg@greenseq.stanford.edu'
-export greenseqa='anthony@greenseq.stanford.edu'
+export greenseqsu='wjg@greenseq.stanford.edu'
+export greenseq='anthony@greenseq.stanford.edu'
 export clusterlustre='anthony@clusterlustre.stanford.edu'
+export greendragonsu='wjg@greendragon.stanford.edu'
 export greendragon='anthony@greendragon.stanford.edu'
 export raid='wjg@gatorraid.stanford.edu'
 export raidBackup='backupdaemon@gatorraid.stanford.edu'
 alias laurel='export TERM=xterm-color; ssh -X $laurel; export TERM=xterm'
+alias greenseqsu='export TERM=xterm-color; ssh -X $greenseqsu; export TERM=xterm'
 alias greenseq='export TERM=xterm-color; ssh -X $greenseq; export TERM=xterm'
-alias greenseqa='export TERM=xterm-color; ssh -X $greenseqa; export TERM=xterm'
 alias clusterlustre='export TERM=xterm-color; ssh -X $clusterlustre; export TERM=xterm'
+alias greendragonsu='export TERM=xterm-color; ssh -X $greendragonsu; export TERM=xterm'
 alias greendragon='export TERM=xterm-color; ssh -X $greendragon; export TERM=xterm'
 alias raid='export TERM=xterm-color; ssh -X $raid; export TERM=xterm'
 alias raidBackup='export TERM=xterm-color; ssh -X $raidBackup; export TERM=xterm'
