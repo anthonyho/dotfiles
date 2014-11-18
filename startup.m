@@ -11,6 +11,6 @@
 addpath('/Users/anthony/stuff/analysis/diffusion/scripts/diffusionAnalysis/displayFunctions');
 addpath('/Users/anthony/stuff/analysis/diffusion/scripts/diffusionAnalysis');
 addpath('/Users/anthony/scripts/matlabTools');
-addpath('/Users/anthony/scripts/arrayTools/matlab');
-addpath('/Users/anthony/scripts/arrayTools/matlab/fitFunctions');
+addpath('/Users/anthony/scripts/AHH_arrayTools/matlab');
+addpath('/Users/anthony/scripts/AHH_arrayTools/matlab/fitFunctions');
 cd /Users/anthony/stuff/analysis;
