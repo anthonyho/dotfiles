@@ -1,5 +1,5 @@
 # common .bashrc to share among all machines
-# AH 11/3/2014
+# AH 12/16/2014
 
 
 # --- Source global definitions --- #
@@ -13,6 +13,7 @@ export HISTSIZE=1000  # Changing history size
 export HISTFILESIZE=1000  # Changing history size
 export HISTCONTROL='ignoredups'  # Eliminate duplicates in history
 export EDITOR='emacs -nw'  # Set default edit to emacs
+export PATH="$PATH:$HOME/scripts/linuxTools"
 if [ "$(uname)" == "Darwin" ]; then  # Mac
     export LSCOLORS=GxFxCxDxBxegedabagaced  # Specify ls colors for Mac
 fi
