@@ -13,7 +13,7 @@ export HISTSIZE=1000  # Changing history size
 export HISTFILESIZE=1000  # Changing history size
 export HISTCONTROL='ignoredups'  # Eliminate duplicates in history
 export EDITOR='emacs -nw'  # Set default edit to emacs
-export PATH="$PATH:$HOME/scripts/linuxTools"
+export PATH="$PATH:$HOME/scripts/linuxTools:$HOME/scripts/AHH_arrayTools/quantTools"
 if [ "$(uname)" == "Darwin" ]; then  # Mac
     export LSCOLORS=GxFxCxDxBxegedabagaced  # Specify ls colors for Mac
 fi
