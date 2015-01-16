@@ -70,6 +70,7 @@ fi
 
 # - git shortcuts - #
 alias gs='git status'
+alias gb='git branch'
 alias gci='git commit -a'
 alias gpm='git push -u origin master'
 alias gcpm='git commit -a && git push -u origin master'
