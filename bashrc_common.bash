@@ -14,6 +14,7 @@ export HISTFILESIZE=1000  # Changing history size
 export HISTCONTROL='ignoredups'  # Eliminate duplicates in history
 export EDITOR='emacs -nw'  # Set default edit to emacs
 export PATH="$PATH:$HOME/scripts/linuxTools:$HOME/scripts/AHH_arrayTools/quantTools"
+export PYTHONPATH="$PYTHONPATH:$HOME/scripts/pythonTools"
 if [ "$(uname)" == "Darwin" ]; then  # Mac
     export LSCOLORS=GxFxCxDxBxegedabagaced  # Specify ls colors for Mac
 fi
@@ -69,10 +70,9 @@ fi
 
 # - git shortcuts - #
 alias gs='git status'
-alias ga='git add *'
 alias gci='git commit -a'
-alias gp='git push -u origin master'
-alias gcp='git commit -a && git push -u origin master'
+alias gpm='git push -u origin master'
+alias gcpm='git commit -a && git push -u origin master'
 
 
 # --- Terminal display --- #
