@@ -1,5 +1,5 @@
 # .bashrc for Laurel
-# AH 11/3/2014
+# Last update AH 1/28/2015
 
 # --- Environmental variables --- #
 export VMDAPPDIR='/Applications/VMD1.9.1.app/Contents'

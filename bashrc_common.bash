@@ -1,5 +1,5 @@
 # common .bashrc to share among all machines
-# AH 12/16/2014
+# Last update AH 1/28/2015
 
 
 # --- Source global definitions --- #
@@ -13,8 +13,8 @@ export HISTSIZE=1000  # Changing history size
 export HISTFILESIZE=1000  # Changing history size
 export HISTCONTROL='ignoredups'  # Eliminate duplicates in history
 export EDITOR='emacs -nw'  # Set default edit to emacs
-export PATH="$PATH:$HOME/scripts/linuxTools:$HOME/scripts/AHH_arrayTools/quantTools"
-export PYTHONPATH="$PYTHONPATH:$HOME/scripts/pythonTools"
+export PATH="$PATH:$HOME/scripts/linuxTools:$HOME/scripts/AHH_arrayTools/quantTools:$HOME/scripts/AHH_arrayTools/seqTools:$HOME/scripts/AHH_arrayTools/miscell"
+export PYTHONPATH="$PYTHONPATH:$HOME/AHH_arrayTools/pythonLib"
 if [ "$(uname)" == "Darwin" ]; then  # Mac
     export LSCOLORS=GxFxCxDxBxegedabagaced  # Specify ls colors for Mac
 fi

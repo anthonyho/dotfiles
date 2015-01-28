@@ -1,5 +1,5 @@
 # .bashrc for GreenDragon and ClusterLustre
-# AH 1/20/2015
+# Last update AH 1/28/2015
 
 # --- Environmental variables --- #
-export PATH="$HOME/lib/anaconda/bin:$PATH"
+#export PATH="$HOME/lib/anaconda/bin:$PATH"
