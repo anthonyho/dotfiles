@@ -1,0 +1,11 @@
+[core]
+	editor = emacs -nw
+[user]
+	name = Anthony Ho
+	email = anthony.hyho@gmail.com
+[color]
+	ui = auto
+[alias]
+	st = status
+	co = checkout
+[credential]
