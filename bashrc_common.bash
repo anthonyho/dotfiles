@@ -116,14 +116,14 @@ export greendragonsu='wjg@greendragon.stanford.edu'
 export greendragon='anthony@greendragon.stanford.edu'
 export raid='wjg@gatorraid.stanford.edu'
 export raidBackup='backupdaemon@gatorraid.stanford.edu'
-alias laurel='export TERM=xterm-color; ssh -X $laurel; export TERM=xterm'
-alias greenseqsu='export TERM=xterm-color; ssh -X $greenseqsu; export TERM=xterm'
-alias greenseq='export TERM=xterm-color; ssh -X $greenseq; export TERM=xterm'
-alias clusterlustre='export TERM=xterm-color; ssh -X $clusterlustre; export TERM=xterm'
-alias greendragonsu='export TERM=xterm-color; ssh -X $greendragonsu; export TERM=xterm'
-alias greendragon='export TERM=xterm-color; ssh -X $greendragon; export TERM=xterm'
-alias raid='export TERM=xterm-color; ssh -X $raid; export TERM=xterm'
-alias raidBackup='export TERM=xterm-color; ssh -X $raidBackup; export TERM=xterm'
+alias laurel='export TERM=xterm-color; ssh -Y $laurel; export TERM=xterm'
+alias greenseqsu='export TERM=xterm-color; ssh -Y $greenseqsu; export TERM=xterm'
+alias greenseq='export TERM=xterm-color; ssh -Y $greenseq; export TERM=xterm'
+alias clusterlustre='export TERM=xterm-color; ssh -Y $clusterlustre; export TERM=xterm'
+alias greendragonsu='export TERM=xterm-color; ssh -Y $greendragonsu; export TERM=xterm'
+alias greendragon='export TERM=xterm-color; ssh -Y $greendragon; export TERM=xterm'
+alias raid='export TERM=xterm-color; ssh -Y $raid; export TERM=xterm'
+alias raidBackup='export TERM=xterm-color; ssh -Y $raidBackup; export TERM=xterm'
 
 # - other people's work machines - #
 export clubmoss='wjg@clubmoss.stanford.edu'
@@ -140,8 +140,8 @@ alias alicia='export TERM=xterm-color; ssh -X $alicia; export TERM=xterm'
 # - Stanford - #
 export corn='ahho@corn.stanford.edu'
 export icme='ahho@icme-gpu1.stanford.edu'
-alias corn='export TERM=xterm-color; ssh -X $corn; export TERM=xterm'
-alias icme='export TERM=xterm-color; ssh -X $icme; export TERM=xterm'
+alias corn='export TERM=xterm-color; ssh -Y $corn; export TERM=xterm'
+alias icme='export TERM=xterm-color; ssh -Y $icme; export TERM=xterm'
 
 
 # --- old remote access --- #
