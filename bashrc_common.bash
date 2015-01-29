@@ -39,11 +39,13 @@ if [ "$(uname)" == "Darwin" ]; then  # Mac
     alias l='ls -G'
     alias ls='ls -G'
     alias lst='ls -trhlG'
+    alias ll='ls -hlG'
     alias la='ls -AtrhlG'
 elif [ "$(uname)" == "Linux" ]; then  # Linux
     alias l='ls --color=auto'
     alias ls='ls --color=auto'
     alias lst='ls -trhl --color=auto'
+    alias ll='ls -hl --color=auto'
     alias la='ls -Atrhl --color=auto'
 fi
 alias grep='grep -i --color=auto'  # Ignore case and turn color on
