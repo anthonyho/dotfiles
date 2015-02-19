@@ -3,7 +3,7 @@
 
 # --- Environmental variables --- #
 export VMDAPPDIR='/Applications/VMD1.9.1.app/Contents'
-export PATH="$PATH:/Applications/MATLAB_R2012b.app/bin"
+export PATH="/Users/anthony/Library/anaconda/bin:$PATH:/Applications/MATLAB_R2012b.app/bin"
 
 # --- Define aliases --- #
 alias vmd='"$VMDAPPDIR/Resources/VMD.app/Contents/MacOS/VMD" $* -nt'
