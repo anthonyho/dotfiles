@@ -122,7 +122,7 @@ alias greenseqwjg='ssh -X $greenseqwjg'
 alias greenseq='ssh -X $greenseq'
 alias clusterlustre='ssh -X $clusterlustre'
 alias greendragonwjg='ssh -X $greendragonwjg'
-alias greendragon='ssh -X $greendragon'
+alias greendragon='ssh -q -X $greendragon'
 alias raid='ssh -X $raid'
 alias raidBackup='ssh -X $raidBackup'
 
