@@ -10,7 +10,7 @@
 
 addpath('/Users/anthony/stuff/analysis/diffusion/scripts/diffusionAnalysis/displayFunctions');
 addpath('/Users/anthony/stuff/analysis/diffusion/scripts/diffusionAnalysis');
-addpath('/Users/anthony/scripts/AHH_arrayTools/matlabLib');
-addpath('/Users/anthony/scripts/AHH_arrayTools/old/matlab');
-addpath('/Users/anthony/scripts/AHH_arrayTools/old/matlab/fitFunctions');
+addpath('/Users/anthony/scripts/arrayAnalysisTools/matlabLib');
+addpath('/Users/anthony/scripts/arrayAnalysisTools/old/matlab');
+addpath('/Users/anthony/scripts/arrayAnalysisTools/old/matlab/fitFunctions');
 cd /Users/anthony/stuff/analysis;
