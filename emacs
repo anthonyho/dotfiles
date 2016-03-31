@@ -63,3 +63,9 @@
 	   ("-B" "-d" "english" "--dict-dir"
 	      "/Library/Application Support/cocoAspell/aspell6-en-6.0-0")
 	    nil iso-8859-1)))
+
+
+;;-------------- org mode ------------------
+(define-key global-map "\C-cl" 'org-store-link)
+(define-key global-map "\C-ca" 'org-agenda)
+(setq org-log-done t)
