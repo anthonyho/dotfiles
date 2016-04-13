@@ -2,7 +2,7 @@
 # Last update AH 4/1/2015
 
 # Define aliases
-module load foss git R RStudio
+#module load foss git R RStudio
 
 alias cdw='cd $GROUP_WORK'
 alias ml='module load foss git RStudio'
