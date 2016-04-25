@@ -55,10 +55,10 @@ alias egrep='egrep --color=auto'  # Turn color on
 alias jobs='jobs -l'  # List process IDs in addition to the normal information
 alias echo='echo -e' # Enable special characters
 alias mkdir='mkdir -p'  # Create intermediate directories as required.
-alias rsync='rsync -avz --progress'
-alias rsyncd='rsync -avz --progress --delete'
-alias rsynce='rsync -avz --progress --existing'
-alias rsynci='rsync -avzi'
+alias rsync='rsync -avzP'
+alias rsyncd='rsync -avzP --delete'
+alias rsynce='rsync -avzP --existing'
+alias rsynci='rsync -avzPi'
 
 # - options for other apps - #
 alias matlab="matlab -nodesktop"  # MATLAB no desktop
