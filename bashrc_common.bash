@@ -59,6 +59,7 @@ alias rsync='rsync -avzP'
 alias rsyncd='rsync -avzP --delete'
 alias rsynce='rsync -avzP --existing'
 alias rsynci='rsync -avzPi'
+alias rsyncn='rsync -avnc'
 
 # - options for other apps - #
 alias matlab="matlab -nodesktop"  # MATLAB no desktop
