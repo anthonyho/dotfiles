@@ -17,3 +17,4 @@ import fitfuns
 import parselib
 import seqlib
 import liblib
+import varlib
