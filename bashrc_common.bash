@@ -147,9 +147,13 @@ alias alicia='ssh $alicia'
 export corn='ahho@corn.stanford.edu'
 export icme='ahho@icme-gpu1.stanford.edu'
 export xs='ahho@xstream-login.stanford.edu'
+export xs1='ahho@xstream-ln01.stanford.edu'
+export xs2='ahho@xstream-ln02.stanford.edu'
 alias corn='ssh -X $corn'
 alias icme='ssh -X $icme'
-alias xs='ssh -X $xs'
+alias xs='ssh -CX $xs'
+alias xs1='ssh -CX $xs1'
+alias xs2='ssh -CX $xs2'
 
 
 # --- old remote access --- #
