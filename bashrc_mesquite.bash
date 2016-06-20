@@ -9,4 +9,3 @@ export PATH="$PATH:/Applications/MATLAB_R2012b.app/bin"
 alias vmd='"$VMDAPPDIR/Resources/VMD.app/Contents/MacOS/VMD" $* -nt'
 alias vmdd='"$VMDAPPDIR/Resources/VMD.app/Contents/MacOS/VMD" $* -dispdev text -e'
 alias xmgrace='/Applications/Grace.app/Contents/MacOS/start.sh'
-alias k='kinit ahho'
