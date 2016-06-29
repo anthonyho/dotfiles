@@ -3,7 +3,7 @@
 # Last update AH 6/29/2016
 
 import os, sys
-from joblib import Parallel, delayed
+#from joblib import Parallel, delayed
 import multiprocessing
 
 import numpy as np
