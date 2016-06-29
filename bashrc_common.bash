@@ -133,7 +133,7 @@ alias raidBackup='ssh -X $raidBackup'
 alias greennas='ssh $greennas'
 alias pegasus='ssh -X $pegasus'
 alias pegasus_ip='ssh -X $pegasus_ip'
-alias sherlock='ssh -X $sherlock'
+alias sherlock='ssh $sherlock'
 alias k='kinit ahho@stanford.edu'
 
 # - other people's work machines - #
