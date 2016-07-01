@@ -11,3 +11,6 @@
 addpath('/Users/anthony/scripts/arrayAnalysisTools/matlabLib');
 addpath('/Users/anthony/scripts/arrayAnalysisTools/old/matlab');
 addpath('/Users/anthony/scripts/arrayAnalysisTools/old/matlab/fitFunctions');
+addpath('/Users/anthony/scripts/arrayAnalysisTools/old/matlab/fitFunctions');
+addpath('/Users/anthony/scripts/scripts/array_tools/CPscripts');
+addpath('/Users/anthony/scripts/scripts/array_tools/CPlibs');
