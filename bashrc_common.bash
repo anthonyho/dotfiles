@@ -136,29 +136,25 @@ alias pegasus_ip='ssh -X $pegasus_ip'
 alias sherlock='ssh -Y $sherlock'
 alias k='kinit ahho@stanford.edu'
 
-# - other people's work machines - #
-export clubmoss='wjg@clubmoss.stanford.edu'
-export alfalfa='greenleaflab@alfalfa.stanford.edu'
-export allspice='greenleaflab@allspice.stanford.edu'
-export allspiceViviana='vrisca@allspice.stanford.edu'
-export alicia='alicia@sr13-52e8946c88.stanford.edu'
-alias clubmoss='ssh $clubmoss'
-alias alfalfa='ssh $alfalfa'
-alias allspice='ssh $allspice'
-alias allspiceViviana='ssh $allspiceViviana'
-alias alicia='ssh $alicia'
-
 # - Stanford - #
 export corn='ahho@corn.stanford.edu'
 export icme='ahho@icme-gpu1.stanford.edu'
 export xs='ahho@xstream-login.stanford.edu'
 export xs1='ahho@xstream-ln01.stanford.edu'
 export xs2='ahho@xstream-ln02.stanford.edu'
+export soal2='ahho@soal-2.stanford.edu'
+export soal3='ahho@soal-3.stanford.edu'
+export soal4='ahho@soal-4.stanford.edu'
+export soal5='ahho@soal-5.stanford.edu'
 alias corn='ssh -X $corn'
 alias icme='ssh -X $icme'
 alias xs='ssh -CX $xs'
 alias xs1='ssh -CX $xs1'
 alias xs2='ssh -CX $xs2'
+alias soal2='ssh -CX $soal2'
+alias soal3='ssh -CX $soal3'
+alias soal4='ssh -CX $soal4'
+alias soal5='ssh -CX $soal5'
 
 
 # --- old remote access --- #
