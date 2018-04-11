@@ -1,5 +1,5 @@
 # .bashrc for Sherlock
-# Last update AH 6/29/2016
+# Last update AH 4/10/2018
 
 # --- Environmental variables --- #
 if [[ "$SHERLOCK" == "1" ]]; then
@@ -13,3 +13,12 @@ else
 fi
 export PYTHONSTARTUP="$HOME/scripts/dotfiles/python_init_sherlock.py"
 export MATLABPATH="$HOME/scripts/array_tools:$HOME/scripts/array_tools/CPlibs:$HOME/scripts/array_tools/CPscripts"
+
+
+# --- Sherlock specific shortcuts --- #
+alias jnb='sh_notebook -c 4 -m 16 -p sfgf,normal,owners -t 24:00:00 -J jnb'
+alias sq='squeue -u ahho'
+alias sqb='squeue -p biochem'
+alias sqs='squeue -p sfgf'
+alias sqo='squeue -p owners'
+alias sqn='squeue -p normal'
