@@ -62,11 +62,16 @@ alias rsyncn='rsync -avnc'
 # - shortcuts - #
 alias whereami='echo $HOSTNAME'
 # - git shortcuts - #
-alias gs='git status'
-alias gb='git branch'
-alias gci='git commit -a'
-alias gpm='git push -u origin master'
+alias gs='git.exe status'
+alias gb='git.exe branch'
+alias gci='git.exe commit -a'
+alias gpm='git.exe push -u origin master'
 alias gcpm='git commit -a && git push -u origin master'
+alias lgs='/usr/bin/git status'
+alias lgb='/usr/bin/git branch'
+alias lgci='/usr/bin/git commit -a'
+alias lgpm='/usr/bin/git push -u origin master'
+alias lgcpm='/usr/bin/git commit -a && git push -u origin master'
 # - calling Windows binaries instead of Linux - #
 alias python='python.exe'   # set default python to use Windows binaries for work compatibility
 alias ipython='ipython.exe' # set default python to use Windows binaries for work compatibility
