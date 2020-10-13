@@ -1,0 +1,9 @@
+[core]
+	editor = emacs -nw
+[color]
+	ui = auto
+[alias]
+	st = status
+	co = checkout
+[credential]
+	helper = store
